@@ -18,5 +18,4 @@ def insert_sort(in_data):
         if smallest:
             out_data[0] = temp
 
-
     return out_data
