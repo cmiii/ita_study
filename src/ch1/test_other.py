@@ -17,3 +17,18 @@ def test_sum_search():
     print("ret = ", ret)
 
     assert ret
+
+def test_inversion_count():
+    # get data from file
+    print("test inversion count.")
+    in_data = []
+    for line in fileinput.input("../../data/sort1.dat"):
+        in_data.append(int(line))
+    print("in_data", in_data)
+
+    from inversion_count import inversion_count
+
+    ret = inversion_count(in_data)
+    print("ret = ", ret)
+
+    assert (ret == 16)
