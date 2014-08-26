@@ -16,4 +16,4 @@ def test_sum_search():
     ret = sum_search(in_data, sum_value)
     print("ret = ", ret)
 
-    assert (ret)
+    assert ret

@@ -1,4 +1,3 @@
-__author__ = 'dinggp'
 
 
 def change(in_data):

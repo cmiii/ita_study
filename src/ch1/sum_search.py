@@ -26,6 +26,6 @@ def sum_search(in_data, sum_value):
         ret = _bin_search(tmp, i+1, length, target)
         if ret != -1:
             found = True
-            print ("found (", i, ")", tmp[i], " + (", ret, ")", tmp[ret], " = ", sum_value)
+            print("found (", i, ")", tmp[i], " + (", ret, ")", tmp[ret], " = ", sum_value)
             break
     return found

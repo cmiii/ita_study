@@ -1,10 +1,9 @@
-__author__ = 'dinggp'
 
 
 def _merge(data, p, q, r):
     tmp1 = data[p:q+1]
     tmp2 = data[q+1:r+1]
-    l = r - p + 1
+    #l = r - p + 1
 
     i = p
     while len(tmp1) > 0 and len(tmp2) > 0:
